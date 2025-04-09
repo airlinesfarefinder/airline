@@ -1,0 +1,1 @@
+No Content: https://www.airflightcart.us/code.jquery.com/jquery-1.12.4.js

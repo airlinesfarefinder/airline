@@ -1,0 +1,24 @@
+.about_sec ul {
+    padding-left: 17px;
+}
+
+.about_sec ul li {
+    color: #000;
+    line-height: 24px;
+    font-size: 15px;
+    text-align: justify;
+    font-weight: 500;
+    list-style: disc;
+}
+
+@media (min-width:320px) and (max-width:767px) {
+    .ftr_bx ul li {
+        width: 100%;
+    }
+    ul.dsnp-uladm li.dsnp-liadm {
+        width: 100%;
+    }
+    .ftr_bx ul li.dsnp-ex {
+        width: 100%;
+    }
+}
