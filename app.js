@@ -5,13 +5,8 @@ const bodyParser = require('body-parser');
 const Amadeus = require('amadeus');
 
 const app = express();
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 5000;
 
-// Initialize Amadeus client
-const amadeus = new Amadeus({
-    clientId: process.env.AMADEUS_CLIENT_ID,
-    clientSecret: process.env.AMADEUS_CLIENT_SECRET
-});
 
 // Set EJS as templating engine
 app.set('view engine', 'ejs');
