@@ -2316,48 +2316,45 @@ We understand that emergencies and spontaneous trips happen. That's why our flex
         }
     </style>
 
-    <div class="greatAirfarespopUp" id="boxes">
-        <div class="gamainCover">
-            <div class="gamainPoup">
-                <!-- <a href="javascript:;" onclick="myFunction1()" class="closeBtns"><img src="images/close-fat.png"></a>-->
-                <div class="whole-banner-clickable">
-                    <a href="tel:(888) 927-5507" class="wholeClickable"></a>
-                    <div class="gAcontent">
-                        <!--<div class="newLogoFlex1">
-                  <div class="siteLogo"><img src="https://www.airflightcart.us/images/logo.png"></div>
-                  <div class="siteNumb">(888) 927-5507</div>
-               </div>-->
-                        <h2>Airlines Reservations and Bookings</h2>
-                        <div class="airlinerLogo"><img id="utmpopupSmalllogo" src="images/Airline-Ticket.png" alt="Cheap"></div>
-                        <a href="tel:(888) 927-5507" class="svnSpt">24/7 Reservations &amp; Support</a>
-                        <div class="usplst">
-                            <div>New Booking</div>
-                            <div>Changes</div>
-                            <div>Cancellation</div>
-                            <div>Customer Service</div>
-                            <a href="tel:(888) 927-5507" class="svnSpt">&nbsp;</a>
-                        </div>
-                        <h2 style="display: none"><span>Cheap</span> Flight Deals</h2>
-                        <div class="flightImage">
-                            <img id="utmpopuplogo" src="images/airline-gnric-pullu.png">
-                        </div>
-                        <div class="girlCalling1">
-                            <img src="images/calling-cus.png">
-                        </div>
-                        <p class="callTxt">No Hold - Call Answered in 5 Sec</p>
-                        <div class="callicons post">
-                            <a href="tel:(888) 927-5507" class="circlePhone"></a>
-                            <h4>
-                                <a href="tel:(888) 927-5507">(888) 927-5507</a>
-                            </h4>
-                        </div>
-                        <p class="pohlp"><a href="tel:(888) 927-5507">24/7 Helpline</a></p>
+<div class="greatAirfarespopUp" id="boxes">
+    <button class="closePopup" onclick="closePopup()">
+        <i class="fa fa-times"></i>
+    </button>
+    <div class="gamainCover">
+        <div class="gamainPoup">
+            <!-- Your existing popup content -->
+            <div class="whole-banner-clickable">
+                <a href="tel:(888) 927-5507" class="wholeClickable"></a>
+                <div class="gAcontent">
+                    <h2>Airlines Reservations and Bookings</h2>
+                    <div class="airlinerLogo"><img id="utmpopupSmalllogo" src="images/Airline-Ticket.png" alt="Cheap"></div>
+                    <a href="tel:(888) 927-5507" class="svnSpt">24/7 Reservations & Support</a>
+                    <div class="usplst">
+                        <div>New Booking</div>
+                        <div>Changes</div>
+                        <div>Cancellation</div>
+                        <div>Customer Service</div>
+                        <a href="tel:(888) 927-5507" class="svnSpt">&nbsp;</a>
                     </div>
+                    <div class="flightImage">
+                        <img id="utmpopuplogo" src="images/airline-gnric-pullu.png">
+                    </div>
+                    <div class="girlCalling1">
+                        <img src="images/calling-cus.png">
+                    </div>
+                    <p class="callTxt">No Hold - Call Answered in 5 Sec</p>
+                    <div class="callicons post">
+                        <a href="tel:(888) 927-5507" class="circlePhone"></a>
+                        <h4>
+                            <a href="tel:(888) 927-5507">(888) 927-5507</a>
+                        </h4>
+                    </div>
+                    <p class="pohlp"><a href="tel:(888) 927-5507">24/7 Helpline</a></p>
                 </div>
             </div>
         </div>
     </div>
-
+</div>
     <script>
         function myFunction1() {
             var x = document.getElementById("boxes");
@@ -2835,4 +2832,34 @@ We understand that emergencies and spontaneous trips happen. That's why our flex
         //Execute when DOM has loaded
         document.addEventListener("DOMContentLoaded", init, false);
     })();
+</script>
+
+<style>
+    .closePopup {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: transparent;
+        color: #000; /* Match your UI color */
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+        z-index: 20;
+    }
+
+    .closePopup i {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .closePopup:hover {
+        color: #f00; /* Optional hover effect */
+    }
+</style>
+
+<script>
+    function closePopup() {
+        var popup = document.getElementById("boxes");
+        popup.style.display = "none";
+    }
 </script>
