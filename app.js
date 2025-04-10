@@ -52,6 +52,11 @@ app.get('/cancellation-refund', (req, res) => {
   res.render('cancellation-refund', { title: 'Cancellation & Refund Policy' });
 });
 
+// Route for sitemap.xml
+app.get('/sitemap.xml', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'sitemap.xml'));
+});
+
 // Autocomplete endpoint
 app.get('/api/airports', async (req, res) => {
     try {
