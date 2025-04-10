@@ -23,7 +23,7 @@ a:hover {
 .morehotels {
     padding: 10px 0;
     width: 100%;
-    background: #233e92;
+    background: #1B1464;
 }
 
 .Compareto {
@@ -50,7 +50,7 @@ a:hover {
 }
 
 .header_top {
-    background: #0065b8;
+    background: #1B1464;
     padding: 10px 0;
 }
 
@@ -67,7 +67,7 @@ a:hover {
     top: 18px;
     right: 88px;
     width: 70px;
-    background: #0066a4;
+    background: #1B1464;
     padding: 6px 2px;
     text-align: center;
     border-radius: 6px;
@@ -92,8 +92,8 @@ a:hover {
     cursor: pointer;
     background: #fff;
     padding: 12px 0;
-    box-shadow: 0 0 2px #0a3788;
-    border: solid 1px #0a3788;
+    box-shadow: 0 0 2px #1B1464;
+    border: solid 1px #1B1464;
 }
 
 .entered_lazyloaded {
@@ -116,7 +116,7 @@ a:hover {
 .sfont_wr h4 {
     font-weight: 700;
     margin: 0px 0 0px 0;
-    color: #233e92;
+    color: #1B1464;
     font-size: 19px;
 }
 
@@ -345,7 +345,7 @@ ul.navbar_st {
 
 .top_sec {
     /*background: #e2e2e2;*/
-    background: #0066a4;
+    background: #1B1464;
     padding: 6px 0;
 }
 
@@ -475,7 +475,7 @@ img.logo {
 }
 
 .ctnt_dst p a {
-    color: #2056ce;
+    color: #1B1464;
     font-weight: 600;
 }
 
@@ -578,7 +578,7 @@ background-position: 65% 0;
 }
 
 .fav_dst h4 span a {
-    background: #0066a4;
+    background: #1B1464;
     color: #fff;
     padding: 5px 10px;
     font-size: 14px;
@@ -592,12 +592,12 @@ background-position: 65% 0;
 
 .fav_dst p i {
     font-size: 12px;
-    color: #0066a4;
+    color: #1B1464;
     margin: 0;
 }
 
 .phone_nm {
-    background: #0066a4;
+    background: #1B1464;
     text-align: center;
     padding: 6px 0;
     color: #fff;
@@ -647,7 +647,7 @@ p.price22 {
     background-position: 18% 43%;
     background-repeat: no-repeat;
     background-size: cover;
-    background: #233e92;
+    background: #1B1464;
 }
 
 .ftr_bx {}
@@ -728,7 +728,7 @@ ul.dsnp-uladm li.dsnp-liadm {
 
 .footer_btm {
     text-align: center;
-    background: #233e92;
+    background: #1B1464;
     padding: 15px 0;
     color: #fff;
     letter-spacing: 0;
@@ -1010,7 +1010,7 @@ ul.dropdown-menu li {
 }
 
 .news_ltr h4 {
-    color: #233e92;
+    color: #1B1464;
     font-weight: 700;
     text-align: center;
     margin-bottom: 10px;
@@ -1092,7 +1092,7 @@ ul.dropdown-menu li {
     text-align: center;
     padding: 10px;
     border-radius: 15px;
-    border: solid 1px #0a3788;
+    border: solid 1px #1B1464;
 }
 
 .lst_line {
@@ -1107,7 +1107,7 @@ ul.dropdown-menu li {
 .why_us .tt_nm {
     font-size: 17px;
     font-weight: 700;
-    color: #0a3788;
+    color: #1B1464;
     margin: 5px 0 5px 0;
 }
 
@@ -1132,7 +1132,7 @@ ul.dropdown-menu li {
     width: 100%;
     text-align: center;
     display: block;
-    background: #0066a4;
+    background: #1B1464;
     color: #fff;
     font-weight: 900;
     padding: 6px 0;
@@ -1161,7 +1161,7 @@ ul.dropdown-menu li {
 
 .dest_org strong {
     font-size: 18px;
-    color: #0066a4;
+    color: #1B1464;
     font-weight: 600;
     float: left;
 }
@@ -1171,7 +1171,7 @@ ul.dropdown-menu li {
 .dest_org span {
     float: right;
     font-size: 18px;
-    color: #0066a4;
+    color: #1B1464;
     font-weight: 600;
 }
 
@@ -1190,7 +1190,7 @@ ul.dropdown-menu li {
     display: block;
     font-size: 20px;
     font-weight: bold;
-    color: #0066a4;
+    color: #1B1464;
 }
 
 .fare_dls h5 {
@@ -1218,7 +1218,7 @@ ul.dropdown-menu li {
 .bx_ft {
     width: 60%;
     display: table;
-    background: #0066a4;
+    background: #1B1464;
     padding: 10px 40px;
     margin-top: 40px;
     margin-bottom: 20px;
@@ -1260,7 +1260,7 @@ ul.dropdown-menu li {
 
 .msg_email button {
     width: 25%;
-    background: #0066a4;
+    background: #1B1464;
     border: 0;
     height: 36px;
     color: #fff;

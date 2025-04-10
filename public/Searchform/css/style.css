@@ -110,7 +110,7 @@ body {
     display: inline-block;
     width: 1.2rem;
     height: 1.2rem;
-    border: 1px solid #001b94;
+    border: 1px solid #1B1464;
     position: absolute;
     left: 0;
     transition: all 0.2s;
@@ -174,7 +174,7 @@ body {
     padding: 10px 0px 8px 0 !important;
     font-size: 17px;
     font-weight: 500;
-    border-bottom: solid 2px #001b94 !important;
+    border-bottom: solid 2px #1B1464 !important;
     margin: 0 0 8px 0;
 }
 
@@ -584,7 +584,7 @@ select.ipt1_hotel:-moz-placeholder {
     letter-spacing: 0.5px;
     font-weight: 600;
     border-radius: 6px;
-    background: #0a3788;
+    background: #1B1464;
     margin: 0 0 0 1px;
     cursor: pointer;
     height: 48px;
@@ -648,7 +648,7 @@ select.ipt1_hotel:-moz-placeholder {
     width: 18px;
     background-color: transparent !important;
     border-radius: 50%;
-    border: 1px solid #0a3788 !important;
+    border: 1px solid #1B1464 !important;
 }
 
 /* On mouse-over, add a grey background color */
@@ -686,7 +686,7 @@ select.ipt1_hotel:-moz-placeholder {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: #0a3788;
+    background: #1B1464;
 }
 
 .gapres_dd {
@@ -795,12 +795,12 @@ a.mns_btn:hover {
     top: 50px;
     left: 0px;
     z-index: 9;
-    border-top: solid 3px #006ee3;
+    border-top: solid 3px #1B1464;
     box-shadow: 0 4px 6px 0 rgb(0 0 0 / 30%);
 }
 
 #radioBtn .notActive {
-    color: #3276b1;
+    color: #1B1464;
     background-color: #5d5d5d;
 }
 
