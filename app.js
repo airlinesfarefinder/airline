@@ -32,7 +32,7 @@ app.get('/contact', (req, res) => {
   res.render('contact', { title: 'Contact Us' });
 });
 
-app.get('/usflights', (req, res) => {
+app.get('/us-flights', (req, res) => {
   res.render('travel', { title: 'Travel' });
 });
 
