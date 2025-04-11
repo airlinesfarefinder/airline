@@ -2224,46 +2224,53 @@
 </style>
 
 <div class="greatAirfarespopUp" id="boxes">
-   <div class="gamainCover">
-      <div class="gamainPoup">
-        <!-- <a href="javascript:;" onclick="myFunction1()" class="closeBtns"><img src="images/close-fat.png"></a>-->
-         <div class="whole-banner-clickable">
-            <a href="tel:(888) 927-5507" class="wholeClickable"></a>
-            <div class="gAcontent">
-               <!--<div class="newLogoFlex1">
-                  <div class="siteLogo"><img src="https://www.airlinesfarefinder.com/images/logo.png"></div>
-                  <div class="siteNumb">(888) 927-5507</div>
-               </div>-->
-               <h2>Airlines Reservations and Bookings</h2>
-               <div class="airlinerLogo"><img id="utmpopupSmalllogo" src="images/Airline-Ticket.png" alt="Cheap"></div>
-               <a href="tel:(888) 927-5507" class="svnSpt">24/7 Reservations &amp; Support</a>
-               <div class="usplst">
-                  <div>New Booking</div>
-                  <div>Changes</div>
-                  <div>Cancellation</div>
-                  <div>Customer Service</div>
-                  <a href="tel:(888) 927-5507" class="svnSpt">&nbsp;</a>
-               </div>
-               <h2 style="display: none"><span>Cheap</span> Flight Deals</h2>
-               <div class="flightImage">
-                  <img id="utmpopuplogo" src="images/airline-gnric-pullu.png">
-               </div>
-               <div class="girlCalling1">
-                  <img src="images/calling-cus.png">
-               </div>
-               <p class="callTxt">No Hold - Call Answered in 5 Sec</p>
-               <div class="callicons post">
-                  <a href="tel:(888) 927-5507" class="circlePhone"></a>
-                  <h4>
-                     <a href="tel:(888) 927-5507">(888) 927-5507</a>
-                  </h4>
-               </div>
-               <p class="pohlp"><a href="tel:(888) 927-5507">24/7 Helpline</a></p>
-            </div>
-         </div>
-      </div>
-   </div>
-</div>
+    <button class="closePopup" onclick="closePopup()">
+        <i class="fa fa-times"></i>
+    </button>
+    <div class="gamainCover">
+       <div class="gamainPoup">
+         <!-- <a href="javascript:;" onclick="myFunction1()" class="closeBtns"><img src="images/close-fat.png"></a>-->
+          <div class="whole-banner-clickable">
+             <a href="tel:1-888-928-1369" class="wholeClickable"></a>
+             <div class="gAcontent">
+                <!--<div class="newLogoFlex1">
+                   <div class="siteLogo"><img src="https://www.airflightcart.us/images/logo.png"></div>
+                   <div class="siteNumb">1-888-928-1369</div>
+                </div>-->
+                <h2>Airlines Reservations and Bookings</h2>
+                <div class="airlinerLogo"><img id="utmpopupSmalllogo" src="images/Airline-Ticket.png" alt="Cheap"></div>
+                <a href="tel:1-888-928-1369" class="svnSpt">24/7 Reservations &amp; Support</a>
+                <div class="usplst">
+                   <div>New Booking</div>
+                   <div>Changes</div>
+                   <div>Cancellation</div>
+                   <div>Customer Service</div>
+                   <a href="tel:1-888-928-1369" class="svnSpt">&nbsp;</a>
+                </div>
+                <h2 style="display: none"><span>Cheap</span> Flight Deals</h2>
+                <div class="flightImage">
+                   <img id="utmpopuplogo" src="images/airline-gnric-pullu.png">
+                </div>
+                <div class="girlCalling1">
+                   <img src="images/calling-cus.png">
+                </div>
+                <p class="callTxt">No Hold - Call Answered in 5 Sec</p>
+                <div class="callicons post">
+                   <a href="tel:1-888-928-1369" class="circlePhone"></a>
+                   <h4>
+                      <a href="tel:1-888-928-1369">1-888-928-1369</a>
+                   </h4>
+                </div>
+                <p class="pohlp"><a href="tel:1-888-928-1369">24/7 Helpline</a></p>
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
+ 
+ 
+ 
+ 
 
 <script>
 function myFunction1() {
@@ -2274,298 +2281,1067 @@ function myFunction1() {
     x.style.display = "none";
   }
 }
-</script><style>
- 
- .callStringNew.footerNumShow {
-        display: flex;
-        padding: 5px 5px 5px 10px;
+</script>
+<style>
+    .greatAirfarespopUp .airlinerLogo {
+        padding: 0px 34px !important;
+        padding-bottom: 0px !important;
     }
 
-    .callStringNew {
-	justify-content: flex-start;
-	align-items: center;
-	position: fixed;
-	background-color: #fff4f1 !important;
-	bottom: 0px;
-	left: 1px;
-	width: 99%;
-	z-index: 9999;
-	margin: 0 auto;
-	border: 1px solid #ed1a22;
-	border-radius: 9px;
-	border-right-width: 7px;
-	top: auto;
-}
+    .gamainPoup a.closeBtns {
+        top: 5px !important;
+    }
 
-        .callStringNew a {
-	color: #000;
-	padding-right: 12px;
-	font-size: 12px;
-	font-weight: 600;
-	text-align: center;
-	display: block;
-	padding-bottom: 1px;
-	line-height: 25px;
-	position: relative;
-	top: -1px;
-	z-index: 10;
-}
+    a.svnSpt {
+        padding-top: 0 !important;
+    }
 
-        .callStringNew .callIcon {
-            position: relative;
-            right: 12px;
+    .usplst {
+        margin-top: 8px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .greatAirfarespopUp .flightImage {
+        margin: 3px 0 !important;
+    }
+
+    .greatAirfarespopUp .girlCalling1 {
+        margin-bottom: 0 !important;
+    }
+
+    .callTxt {
+        margin-bottom: 3px !important;
+    }
+
+    .pohlp {
+        margin-bottom: 0;
+    }
+.gamainCover .gamainPoup h2 {
+    font-size: 27px;
+    color: #0a3788;
+    font-weight: 700;
+    text-transform: none;
+    margin-top: 10px;
+    background-color: #fff;
+    padding: 12px 0px;
+    margin-bottom: 17px;font-family: 'Fira Sans', sans-serif;
+}
+    ._rate {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding: 5px 10px 0px 10px;
+    }
+
+        ._rate div:first-child {
+            border-right: 1px solid lightgray;
         }
 
-    .callImgGirl {
-	width: 50px;
-	display: block;
-	border: solid 2px #008a04;
-	border-radius: 50%;
-	height: 50px;
-}
+            ._rate div:first-child img {
+                padding-right: 15px;
+            }
 
-    @keyframes zoom-in-zoom-out {
+        ._rate div:last-child img {
+            padding-left: 14px;
+        }
+
+
+    @keyframes pulse {
         0% {
-            transform: scale(1, 1);
+            transform: scale(0.5);
+            opacity: 0;
         }
 
         50% {
-            transform: scale(1.3, 1.3);
-        }
-
-        100% {
-            transform: scale(1, 1);
-        }
-    }
-
-    .wifi-symbol {
-        display: block;
-        position: absolute;
-        top: 6px;
-        left: 12px;
-        display: inline-block;
-        height: 36px;
-    }
-
-        .wifi-symbol .wifi-circle {
-            box-sizing: border-box;
-            -moz-box-sizing: border-box;
-            display: block;
-            width: 100%;
-            height: 100%;
-            font-size: 21.4285714286px;
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            border-color: #fff;
-            border-style: solid;
-            border-width: 2px 2px 0 0;
-            -webkit-border-radius: 0 100% 0 0;
-            border-radius: 0 100% 0 0;
-            opacity: 0;
-            -o-animation: wifianimation 2.5s infinite;
-            -moz-animation: wifianimation 2.5s infinite;
-            -webkit-animation: wifianimation 2.5s infinite;
-            animation: wifianimation 2.5s infinite;
-        }
-
-            .wifi-symbol .wifi-circle.first {
-                -o-animation-delay: 800ms;
-                -moz-animation-delay: 800ms;
-                -webkit-animation-delay: 800ms;
-                animation-delay: 800ms;
-                width: 15px;
-                height: 15px;
-                left: 16px;
-                top: 0px;
-            }
-
-            .wifi-symbol .wifi-circle.second {
-                width: 12px;
-                height: 12px;
-                -o-animation-delay: 400ms;
-                -moz-animation-delay: 400ms;
-                -webkit-animation-delay: 400ms;
-                animation-delay: 400ms;
-                left: 14px;
-                top: 5px;
-            }
-
-            .wifi-symbol .wifi-circle.third {
-                width: 8px;
-                height: 8px;
-                left: 12px;
-                top: 10px;
-            }
-
-        .wifi-symbol .fourth {
-            width: 30px;
-            height: 36px;
-            background: url(/images/animatePhoneWhite.png) left center no-repeat;
-            background-size: 20px;
-            display: inline-block;
-        }
-
-    @keyframes wifianimation {
-        0% {
+            transform: scale(1);
             opacity: 1;
         }
 
-        5% {
-            opactiy: 1;
-        }
-
-        6% {
-            opactiy: .8;
-        }
-
         100% {
-            opactiy: .8;
+            transform: scale(1.3);
+            opacity: 0;
         }
     }
 
-    .callStringNew .rightCall {
-	display: flex;
-	width: 100%;
-	text-align: center;
-	justify-content: center;
-	padding-right: 0px;
-	padding-left:11px;
-}
-
-    /*.callStringNew a span {
-                font-size: 25px;
-                display: block;
-                padding-top: 0;
-                letter-spacing: 2px;
-                font-weight: bold;
-                font-family: 'Montserrat';
-            }*/
-    .callStringNew a span._speak {
-        font-size: 14px;
-        font-weight: 500;
-        font-family: 'Montserrat';
-        letter-spacing: normal;
-    }
-
-
-    .callStringNew.showTop img {
-        display: inline-block;
-    }
-
-    .callStringNew.showTop {
-        -webkit-animation-name: slideInDown;
-        animation-name: slideInDown;
-        -webkit-animation-duration: 0.5s;
-        animation-duration: 0.5s;
-        -webkit-animation-fill-mode: both;
-        animation-fill-mode: both;
-        top: 0;
-        bottom: auto;
-        padding: 5px;
-        padding-bottom: 2px;
-    }
-
-        .callStringNew.showTop .rightCall {
-            justify-content: flex-start;
-        }
-
-        .callStringNew.showTop a {
-            line-height: 24px;
-            padding-bottom: 2px;
-            top: -1px;
-        }
-
-    .callStringNew .fulclk {
+    .gamainPoup a.closeBtns {
         position: absolute;
+        right: 8px;
+        top: 12px;
+    }
+
+    .fullcclickv {
+        position: absolute;
+        z-index: 1;
         width: 100%;
         height: 100%;
         left: 0;
         top: 0;
     }
 
-    .fulclk ._call-num {
-        font-size: 0 !important;
-        position: absolute;
-        width: 100%;
-        height: 100%;
+    .gamainPoup a.closeBtns img {
+    }
+
+    .gamainCover {
+        background-color: #fff;
+        border-radius: 16px;
+        height: auto;
+        padding-bottom: 6px;
+        position: relative;
+        margin-top: 15px;
+    }
+
+    .greatAirfarespopUp {
+        background: rgb(192,219,236);
+        background: linear-gradient(180deg, rgba(192,219,236,1) 0%, rgba(240,241,243,1) 53%, rgba(201,228,245,1) 100%);
+        position: fixed;
         top: 0;
         left: 0;
+        height: 100vh;
+        width: 100%;
+        z-index: 100000;
+        padding: 0px 13px 100px 13px;
+        text-align: center;
+        overflow-y: auto;
+        display:none;
     }
 
-    .callStringNew a span._callphone { 
-        font-weight: 700;
-        font-family: 'Poppins', sans-serif;
+    header .topRightCurrencyConvertorHomePage {
+        z-index: 0;
     }
 
-    .callStringNew a small {
-        color: #fff;
-        background-color: #106e00;
-        border-radius: 5px;
-        padding: 3px;
-        font-weight: 400;
-        letter-spacing: 1px;
-    }
-
-    .callStringNew a span._numcall {
-        font-size: 28px;
-        display: block;
-        padding-top: 0;
-        font-weight: 700; 
-        font-family: 'Poppins', sans-serif;
-        color:#000;
-    }
-
-    .callIcon1 {
-	position: relative;
-	left: 0;
-	top: 1px;
-}
-
-    .callStringNew a._phonebox {
-        width: 46px;
-        height: 46px;
+    .gamainPoup .pulse {
+        height: 45px;
+        width: 45px;
+        background-color: #e60146;
         border-radius: 50%;
-        background-color: #c60001;
         display: flex;
         justify-content: center;
         align-items: center;
-        background: #106e00;
-        animation: zoom-in-zoom-out 2s ease-out infinite;
+        position: relative;
+        z-index: 0;
+        margin-right: 15px;
+        border: 2px solid rgba(255,255,255, 0.5);
     }
 
-    .footerNumShow {
-    display: none !important;
-}
+        .gamainPoup .pulse img {
+            width: 22px;
+        }
 
-        .footerNumShow .phone-call {
-            background: transparent !important;
-            height: auto;
-            width: auto;
+        .gamainPoup .pulse::before {
+            content: "";
+            position: absolute;
+            border: 1px solid #fff;
+            width: calc(80% + 10px);
+            height: calc(80% + 10px);
             border-radius: 50%;
+            animation: pulse 2s linear infinite;
+        }
+
+        .gamainPoup .pulse::after {
+            content: "";
+            position: absolute;
+            border: 1px solid #fff;
+            width: calc(80% + 10px);
+            height: calc(80% + 10px);
+            border-radius: 50%;
+            animation: pulse 1s linear infinite;
+            animation-delay: 0.5s;
+        }
+
+    .callicons {
+        border: solid 1px #e6effe;
+        border-radius: 40px;
+        background: rgb(229,238,255);
+        background: linear-gradient(90deg, rgba(229,238,255,1) 0%, rgba(246,251,255,1) 100%);
+        display: flex;
+        padding: 4px;
+        margin-right: 10px;
+        margin-left: 7px;
+    }
+
+    .gAcontent {
+        width: 100%;
+    }
+
+    .callicons .circlePhone {
+        border: solid 10px #fff;
+        border-radius: 50%;
+        height: 74px;
+        width: 74px;
+        background: #032f4c url(/images/phoneRotate.png) center center no-repeat;
+        text-align: center;
+        display: inline-block;
+        background-size: 26px;
+    }
+
+    .callicons h4 {
+        margin: 0;
+        padding-left: 9px;
+        padding-top: 5px;
+        color: #404040;
+        font-weight: 500;
+    }
+
+    .callicons .circlePhone {
+        animation-name: trin;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    .callicons h4 a {
+        font-weight: bold;
+        color: #032f4c;
+        font-size: 27px;
+        display: block;
+        letter-spacing: 1px;
+        transition: unset;
+    }
+
+    .callicons h4 span {
+        font-weight: 400;
+        color: #000000;
+        font-size: 21px;
+        display: block;
+        margin-bottom: 3px;
+        text-align: left;
+    }
+
+
+    @keyframes trin {
+        from {
+            transform: rotate3d(0, 0, 1, 0deg);
+        }
+
+        20%, 32%, 44%, 56%, 68% {
+            transform: rotate3d(0, 0, 1, 0deg);
+        }
+
+        23%, 35%, 47%, 59%, 71% {
+            transform: rotate3d(0,0,1,15deg);
+        }
+
+        26%, 38%, 50%, 62%, 74% {
+            transform: rotate3d(0,0,1,0deg);
+        }
+
+        29%, 41%, 53%, 65%, 77% {
+            transform: rotate3d(0,0,1,-15deg);
+        }
+
+        80% {
+            transform: rotate3d(0, 0, 1, 0deg);
+        }
+    }
+
+    .gamainPoup {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        padding-top: 8px;
+    }
+
+        .gamainPoup h2 {
+            font-size: 19px;
+            color: #032f4c;
+            font-weight: 400;
+            text-transform: uppercase;
+            margin-top: 10px;
+        }
+
+    .airlinerLogo {
+        padding-top: 10px;
+    }
+
+        .airlinerLogo img {
+            max-width: 78%;
+            height: auto;
+        }
+
+    .gamainPoup h3 {
+        color: #000;
+        font-weight: 100;
+        margin: 0;
+        margin-top: 5px;
+        line-height: 8px;
+        font-weight: 500;
+        line-height: 24px;
+        font-size: 18px;
+        letter-spacing: -0.5px;
+    }
+
+        .gamainPoup h3 span {
+            display: block;
+            font-weight: 400;
+            font-size: 16px;
+        }
+
+            .gamainPoup h3 span .call {
+                font-weight: 400;
+                display: inline;
+            }
+
+        .gamainPoup h3 img {
+            margin-left: 0;
+            position: relative;
+            top: 20px;
+            left: -2px;
+        }
+
+    .flightImage {
+        margin-top: 7px;
+        margin-bottom: 40px;
+        background-image: url(../images/flightPopupBg.png);
+        background-repeat: no-repeat;
+        min-height: 194px;
+        position: relative;
+    }
+
+        .flightImage img {
+            max-width: 94%;
+            position: relative;
+            top: 40px;
+        }
+
+    .btmBooks {
+        background-color: #e28a00;
+        color: #fff;
+        font-size: 12px;
+        padding: 8px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        border-radius: 0 0 4px 4px;
+    }
+
+    p.inqryc {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: #032f4c;
+        text-align: center;
+        color: #fff;
+        padding: 8px 5px;
+        font-size: 17px;
+        font-weight: 400;
+        z-index: 100;
+    }
+
+    .gamainPoup {
+        padding-bottom: 10px;
+        height: auto;
+    }
+
+    p.savcd {
+        font-size: 19px;
+        color: #f00;
+        padding-top: 7px;
+        font-weight: 500;
+        text-transform: capitalize;
+        line-height: 35px;
+    }
+
+        p.savcd span {
+            background: #f00;
+            color: #fff;
+            padding: 1px 5px 0 5px;
+        }
+
+        p.savcd strong {
+            font-weight: bold;
+            font-size: 20px;
+            position: relative;
+            top: 2px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @-webkit-keyframes pulse {
+        0% {
+            -webkit-transform: scale(0);
+            opacity: 0;
+        }
+
+        25% {
+            -webkit-transform: scale(0.3);
+            opacity: 1;
+        }
+
+        50% {
+            -webkit-transform: scale(0.6);
+            opacity: .7;
+        }
+
+        75% {
+            -webkit-transform: scale(0.9);
+            opacity: .4;
+        }
+
+        100% {
+            -webkit-transform: scale(1);
+            opacity: 0;
+        }
+    }
+
+    @keyframes pulse {
+        0% {
+            transform: scale(0);
+            opacity: 0;
+        }
+
+        25% {
+            transform: scale(0.3);
+            opacity: 1;
+        }
+
+        50% {
+            transform: scale(0.6);
+            opacity: .7;
+        }
+
+        75% {
+            transform: scale(0.9);
+            opacity: .4;
+        }
+
+        100% {
+            transform: scale(1);
+            opacity: 0;
+        }
+    }
+
+    .girlCalling1 {
+        margin-top: -77px;
+        margin-bottom: 15px;
+        position: relative;
+    }
+
+    .call_UTM_Banner_NowPopup {
+        width: 100%;
+        background-color: #fff;
+        border-radius: 0;
+        padding: 4px;
+    }
+
+    .call_UTM_Banner_NowpMain > img {
+        margin-top: -57px;
+    }
+
+    .call_UTM_Banner_NowpMain {
+        width: 100%;
+        border-radius: 0;
+        padding: 6px 0;
+        text-align: center;
+        position: relative;
+    }
+
+        .call_UTM_Banner_NowpMain a {
+            font-size: 25px;
+            color: #da0201;
+            font-weight: 400;
+            text-decoration: none;
+        }
+
+    a.close_UTM_Banner_CallPopup {
+        position: absolute;
+        right: 0;
+        top: 4px;
+        width: 22px;
+        height: 22px;
+    }
+
+        a.close_UTM_Banner_CallPopup:after, a.close_UTM_Banner_CallPopup:before {
+            content: '';
+            width: 1px;
+            height: 12px;
+            position: absolute;
+            left: 9px;
+            top: 4px;
+            background: #000;
+            transform: rotate(45deg);
+        }
+
+        a.close_UTM_Banner_CallPopup:after {
+            transform: rotate(-45deg);
+        }
+
+    .call_UTM_Banner_NowpMain h2 {
+        padding-top: 6px;
+        font-size: 18px;
+        text-align: center;
+        color: #000;
+        line-height: 20px;
+        margin-bottom: 6px;
+        padding-top: 10px;
+        font-weight: 500;
+    }
+
+        .call_UTM_Banner_NowpMain h2 span {
+            display: block;
+            font-size: 12px;
+            padding-top: 4px;
+        }
+
+    .close_UTM_Banner_ppForm {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        text-align: left;
+    }
+
+        .close_UTM_Banner_ppForm .cp_UTM_Banner_Form {
+            position: relative;
+            height: 43px;
+            margin-top: 6px;
+            z-index: 0;
+        }
+
+            .close_UTM_Banner_ppForm .cp_UTM_Banner_Form span {
+                position: absolute;
+                z-index: 1;
+                left: 13px;
+                top: 10px;
+                color: #000;
+                font-size: 17px;
+                font-weight: 600;
+            }
+
+                .close_UTM_Banner_ppForm .cp_UTM_Banner_Form span img {
+                    margin-right: 1px;
+                    width: 20px;
+                    height: 15px;
+                    position: relative;
+                    top: 2px;
+                }
+
+            .close_UTM_Banner_ppForm .cp_UTM_Banner_Form input {
+                position: relative;
+                left: 0;
+                width: 100%;
+                border-radius: 30px;
+                margin: 0;
+                height: 42px;
+                padding-left: 60px;
+                font-weight: bold;
+                font-size: 17px;
+                border: 1px solid #ccc !important;
+                background-color: #f5f5f5 !important;
+            }
+
+                .close_UTM_Banner_ppForm .cp_UTM_Banner_Form input::-webkit-input-placeholder {
+                    font-size: 13px;
+                    font-weight: bold;
+                    color: #333;
+                    padding-bottom: 2px;
+                }
+
+                .close_UTM_Banner_ppForm .cp_UTM_Banner_Form input::placeholder {
+                    font-size: 13px;
+                    font-weight: bold;
+                    color: #333;
+                    padding-bottom: 2px;
+                }
+
+        .close_UTM_Banner_ppForm .btns {
+            position: absolute;
+            right: 4px;
+            border-radius: 50px;
+            background: #fe5a04;
+            color: #fff;
+            font-size: 14px;
+            top: 3px;
+            height: 36px;
+            padding: 1px 12px;
+            outline: 0;
+            border: 0;
+        }
+
+            .close_UTM_Banner_ppForm .btns img {
+                position: relative;
+                top: 1px;
+            }
+
+    p.error_UTM_Banner_Msgs {
+        color: #f00;
+        font-size: 12px;
+        padding-top: 2px;
+        letter-spacing: 0.5px;
+        position: absolute;
+        display: none;
+    }
+
+    .call_UTM_Banner_NowpMain p {
+        line-height: 15px;
+    }
+
+
+
+
+
+
+    .div_UTM_Banner_CallBackProgreessHome {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        top: -80px;
+        left: 0px;
+        z-index: 99;
+        text-align: center;
+        color: #000;
+        padding: 10px;
+        padding-top: 1px;
+        line-height: 25px;
+        border: 1px solid #ccc;
+        background: #c9f5f6;
+        margin-top: 10px;
+    }
+
+    .confirmation_UTM_Banner_Popup {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        z-index: 99;
+        text-align: center;
+        padding: 10px 25px;
+        padding-top: 10px;
+        border: 1px solid #ccc;
+        background: #c9f5f6;
+        margin-top: 10px;
+    }
+
+    #cb_UTM_Banner_Number {
+        color: #d90001;
+        font-weight: bold;
+    }
+
+    .confirmation_UTM_Banner_Popup#confirmation_UTM_Banner_Popup b {
+        font-size: 14px;
+        font-weight: 400;
+        padding-top: 20px;
+        display: block;
+    }
+
+    .confirmation_UTM_Banner_Popup#confirmation_UTM_Banner_Popup p {
+        font-size: 14px;
+        color: #000;
+    }
+
+    .btn_UTM_Banner_Holder button {
+        background: #333;
+        padding: 8px 25px;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 0;
+        border: 0;
+        font-weight: 400;
+        font-size: 17px;
+        margin: 13px 6px 0 6px;
+    }
+
+    a.close_UTM_Banner_CallPopupConfirm {
+        position: absolute;
+        right: 0;
+        top: 4px;
+        width: 22px;
+        height: 22px;
+    }
+
+        a.close_UTM_Banner_CallPopupConfirm:after, a.close_UTM_Banner_CallPopupConfirm:before {
+            content: '';
+            width: 1px;
+            height: 12px;
+            position: absolute;
+            left: 10px;
+            top: 5px;
+            background: #000;
+            transform: rotate(45deg);
+        }
+
+        a.close_UTM_Banner_CallPopupConfirm:after {
+            transform: rotate(-45deg);
+        }
+
+    a.close_UTM_Banner_CallPopupHome {
+        position: absolute;
+        right: 0;
+        top: 4px;
+        width: 22px;
+        height: 22px;
+    }
+
+        a.close_UTM_Banner_CallPopupHome:after, a.close_UTM_Banner_CallPopupHome:before {
+            content: '';
+            width: 1px;
+            height: 12px;
+            position: absolute;
+            left: 10px;
+            top: 5px;
+            background: #000;
+            transform: rotate(45deg);
+        }
+
+        a.close_UTM_Banner_CallPopupHome:after {
+            transform: rotate(-45deg);
+        }
+
+    .disc_UTM_Banner_laimer {
+        color: #000;
+        font-size: 11px;
+        padding-top: 6px;
+        line-height: 15px;
+    }
+
+    p.calfivesec {
+        font-size: 13px;
+        font-weight: 600;
+        padding-top: 12px;
+        margin-bottom: 0;
+    }
+
+        p.calfivesec span {
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+    .orali span {
+        border: 1px solid #ccc;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: inline-block;
+        line-height: 28px;
+        color: #333;
+        margin-top: 6px;
+    }
+
+    .orali span {
+        border: 1px solid #ccc;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: inline-block;
+        line-height: 28px;
+        color: #333;
+        margin-top: 6px;
+    }
+
+
+    @media screen and (max-width: 375px) {
+
+
+        .gamainCover {
+            padding-top: 0;
+        }
+
+        .airlinerLogo img {
+            height: 52px;
+            object-fit: contain;
+        }
+
+        .greatAirfarespopUp .girlCalling1 {
+            margin-top: 0;
+        }
+
+            .greatAirfarespopUp .girlCalling1 img {
+                width: 67px;
+            }
+
+        .pohlp {
+            display: none;
+        }
+
+
+        .div_UTM_Banner_CallBackProgreessHome,
+        .confirmation_UTM_Banner_Popup {
+            margin-top: -20px;
+        }
+
+        .div_UTM_Banner_CallBackProgreessHome {
+            margin-top: -38px !important;
+        }
+
+        .gamainPoup h3 {
+            margin-top: 5px;
+        }
+
+        .flightImage img {
+            top: 35px;
+        }
+
+        .flightImage {
+            min-height: 177px;
+        }
+
+        .callicons h4 a {
+            font-size: 24px;
+        }
+    }
+</style>
+<style>
+    /**** new Design popup****/
+    .mob_UTM_Banner_connecting h2 {
+        font-size: 15px;
+        color: #000;
+        width: 100%;
+        padding: 0px;
+        padding-bottom: 0px;
+        margin: 0px;
+        text-align: left;
+    }
+
+        .mob_UTM_Banner_connecting h2 span#span_UTM_Banner_FooterCallText {
+            width: 50%;
+            float: left;
+            font-size: 14px;
+            margin: 0px;
+            margin-top: 0px;
+        }
+
+        .mob_UTM_Banner_connecting h2 span img {
+            max-width: 120px;
+        }
+
+    .mob_UTM_Banner_connecting h3 {
+        font-size: 14px;
+        margin-top: 12px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .mob_UTM_Banner_connecting p {
+        font-size: 12px;
+        color: #000;
+        width: 100%;
+        text-align: left;
+        line-height: 18px;
+        font-weight: 500;
+        margin: 0;
+    }
+
+    .mob_UTM_Banner_connecting ul {
+        margin: 5px 0 0 0;
+        padding: 0px;
+        line-height: 28px;
+        list-style: none;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .mob_UTM_Banner_connecting li {
+        font-size: 12px;
+        color: #000;
+        margin: 0px;
+        padding: 0px;
+        list-style: disc;
+        margin-left: 14px;
+        line-height: 24px;
+        font-weight: 500;
+    }
+
+
+
+
+    .usplst {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 12px;
+        margin-bottom: 7px;
+        position: relative;
+    }
+
+        .usplst div {
+            text-align: center;
+            font-size: 15px;
+            color: #fff;
+            padding: 6px 0 9px 0;
+            width: 45%;
+            font-weight: 400;
+            background-color: #0a3788;
+            border-radius: 20px;
+            margin: 5px 2px;
+            font-family: 'Fira Sans', sans-serif;
+        }
+
+        .usplst a {
+            position: absolute;
+            top: 0;
             left: 0;
-        }   
-    
+            width: 100%;
+            height: 100%;
+        }
 
+    a.svnSpt {
+        font-size: 18px;
+        color: #000;
+        display: block;
+        padding-top: 10px;
+        font-weight: 500;font-family: 'Fira Sans', sans-serif;
+    }
 
+    p.pohlp a {
+        color: #000;
+        font-size: 16px;
+        font-weight: 500;
+        padding-top: 7px;
+        display: block;font-family: 'Fira Sans', sans-serif;
+    }
 
-.headers {
-    
+    .callicons.post {
+        border-radius: 47px;
+        background: #0a3788;
+        display: flex;
+        padding: 4px;
+        margin-right: 10px;
+        margin-left: 7px;
+    }
+
+        .callicons.post h4 span {
+            color: #fff;
+        }
+
+        .callicons.post h4 a {
+            color: #fff;
+        }
+
+    .greatAirfarespopUp .circlePhone {
+        border: solid 5px #fff;
+        height: 58px;
+        width: 58px;
+        background: #0a3788 url(../images/callPhone.png) center center no-repeat;
+        margin-left: 7px;
+    }
+
+    .greatAirfarespopUp .close_UTM_Banner_ppForm .btns {
+        font-size: 13px;
+        padding: 1px 9px;
+    }
+
+    .greatAirfarespopUp .girlCalling1 img {
+        border: 4px solid #ccc;
+        border-radius: 50%;
+    }
+
+    .greatAirfarespopUp .girlCalling1 {
+        margin-top: 10px;
+        margin-bottom: 11px;
+        position: relative;
+    }
+
+    .greatAirfarespopUp .close_UTM_Banner_ppForm .cp_UTM_Banner_Form span img {
+        margin-right: 2px;
+        top: 0;
+    }
+
+    .greatAirfarespopUp .flightImage {
+        min-height: unset;
+        margin: 19px 0;
+        padding: 0 20px;
+    }
+
+    .greatAirfarespopUp .airlinerLogo {
+        padding: 10px 34px;
+        padding-bottom: 5px;
+    }
+
+    .greatAirfarespopUp .callicons h4 {
+        padding-top: 14px;
+    }
+
+    .callTxt {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .greatAirfarespopUp .flightImage img {
+        top: 0;
+    }
+
+    .whole-banner-clickable a.wholeClickable {
+        position: absolute;
+        width: 100%;
+        height: 80%;
+        left: 0px;
+        top: 0px;
+        z-index: 10;
+    }
+
+    .gamainPoup a.closeBtns {
+        z-index: 12;
+    }
+    .greatAirfarespopUp .newLogoFlex1 {
+    padding: 25px 10px 10px 10px;
 }
-
-
+.newLogoFlex1 {
+    display: flex;
+    padding: 35px 10px 10px 10px;
+    justify-content: space-between;
+}
+.newLogoFlex1 .siteLogo {
+        max-width: 169px;
+    margin-top: 7px;
+}
+.newLogoFlex1 .siteLogo img {
+    width: 100%;
+}
+.gamainCover .newLogoFlex1 .siteNumb{
+    border: solid 1px #000;
+    font-weight: bold;
+    padding: 0 6px 0 12px;
+    height: 22px;
+    color: #000;
+    margin: 8px
+}
+.gamainCover .newLogoFlex1 .siteNumb a{
+    color:#000;
+}
+.newLogoFlex1 .siteNumb {
+    font-size: 14px;
+    font-weight:600;
+    border: solid 1px #008a04;
+    border-radius: 5px;
+    padding:0 6px 0 12px;
+    position: relative;
+    line-height: 20px;
+}
+.newLogoFlex1 .siteNumb:before {
+    width: 36px;
+    height: 37px;
+    content: " ";
+    background-image: url(../images/utmCall.png);
+    position: absolute;
+    left: -31px;
+    top: -8px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#boxes{ display:none;}
 
 
 @media (min-width:320px) and (max-width:767px){
- .footerNumShow {
-    display: flex !important;
+    .greatAirfarespopUp {display:block;}
+   #boxes{ display:block;}  
 }
- 
-    
-    
-}    
 
-    
+
 </style>
 
 
@@ -2676,7 +3452,28 @@ function myFunction1() {
 
 
 </html>
+<style>
+    .closePopup {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: transparent;
+        color: #0a3788; /* Match your UI color */
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+        z-index: 20;
+    }
 
+    .closePopup i {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .closePopup:hover {
+        color: #f00; /* Optional hover effect */
+    }
+</style>
 	
 	<script>
 	//IIFE
@@ -2760,4 +3557,12 @@ function myFunction1() {
   document.addEventListener("DOMContentLoaded", init, false);
 })();
 
+
+
 	</script>	
+<script>
+    function closePopup() {
+        var popup = document.getElementById("boxes");
+        popup.style.display = "none";
+    }
+</script>
