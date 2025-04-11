@@ -52,9 +52,17 @@ app.get('/cancellation-refund', (req, res) => {
   res.render('cancellation-refund', { title: 'Cancellation & Refund Policy' });
 });
 
+app.get('/uk-flights', (req, res) => {
+  res.render('ukflights', { title: 'UK Flights' });
+});
+
 // Route for sitemap.xml
 app.get('/sitemap.xml', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'sitemap.xml'));
+});
+
+app.get('/mexico-flights', (req, res) => {
+  res.render('mexicoflight', { title: 'Mexico Flights' });
 });
 
 // Autocomplete endpoint
