@@ -11,6 +11,7 @@ const port = process.env.PORT || 5000;
 // Set EJS as templating engine
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
+app.set('trust proxy', true);
 
 // Middleware
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -64,6 +65,8 @@ app.get('/sitemap.xml', (req, res) => {
 app.get('/mexico-flights', (req, res) => {
   res.render('mexicoflight', { title: 'Mexico Flights' });
 });
+
+
 
 // Autocomplete endpoint
 app.get('/api/airports', async (req, res) => {
